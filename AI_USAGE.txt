@@ -1,26 +1,23 @@
-# Documentation de l'utilisation de l'IA Générative
+# Documentation de l'utilisation de l'IA
 
-## Déclaration d'utilisation
+Ce document liste les parties du code qui ont été générées ou assistées par une IA.
 
-Ce document liste les parties du code qui ont été générées ou assistées par une IA générative (GitHub Copilot), conformément aux exigences du projet (maximum 20% du code source).
+## Parties générées et assistées par IA
 
-## Parties générées par IA
-
-### 1. Structure de base de l'interface Tkinter (≈5% du code total)
+### 1. Structure de base de l'interface Tkinter
 **Fichier:** `ui/main_window.py`
 **Lignes approximatives:** Structure initiale de la classe et création des onglets
 **Description:** L'IA a assisté dans la mise en place de la structure de base de l'application Tkinter avec le système d'onglets (Notebook). La logique métier et les implémentations spécifiques ont été développées manuellement.
 
-### 2. Docstrings et commentaires (≈3% du code total)
-**Fichiers:** Tous les modules (`core/*.py`, `ui/*.py`)
+### 2. Docstrings et commentaires
 **Description:** L'IA a suggéré certaines docstrings au format standard Python pour documenter les fonctions et classes. Le contenu technique et les descriptions détaillées ont été revus et adaptés manuellement.
 
-### 3. Formatage des résultats textuels (≈2% du code total)
+### 3. Formatage des résultats textuels
 **Fichier:** `ui/main_window.py`
 **Fonction:** Méthodes d'affichage des résultats dans les ScrolledText
 **Description:** L'IA a suggéré des formats d'affichage pour les résultats dans les zones de texte. Le contenu et les informations affichées sont développés manuellement.
 
-## Parties développées manuellement (≈90% du code)
+## Parties développées manuellement
 
 ### Algorithmes mathématiques (100% manuel)
 - Élimination de Gauss avec pivot partiel
@@ -47,8 +44,6 @@ Ce document liste les parties du code qui ont été générées ou assistées pa
 
 ## Estimation du pourcentage total d'IA
 
-**Total estimé: ≈10% du code source**
-
 - Aide à la structure: 5%
 - Documentation: 3%
 - Formatage: 2%
@@ -59,14 +54,6 @@ Le reste du code (90%) a été développé manuellement, incluant tous les algor
 
 L'IA a été utilisée principalement comme outil d'assistance pour:
 1. Suggérer des structures de base standard
-2. Compléter certaines docstrings
-3. Proposer des formats de présentation
+2. Compléter certaines docstrings et code
 
 Tous les algorithmes mathématiques, la logique de calcul, les validations, et les fonctionnalités spécifiques ont été implémentés sans assistance IA, en se basant sur les connaissances en mathématiques et programmation.
-
-## Vérification
-
-Ce projet respecte la limite de 20% d'utilisation d'IA générative imposée par les consignes du cours.
-
----
-Date: 4 novembre 2025
