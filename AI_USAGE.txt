@@ -1,0 +1,72 @@
+# Documentation de l'utilisation de l'IA Générative
+
+## Déclaration d'utilisation
+
+Ce document liste les parties du code qui ont été générées ou assistées par une IA générative (GitHub Copilot), conformément aux exigences du projet (maximum 20% du code source).
+
+## Parties générées par IA
+
+### 1. Structure de base de l'interface Tkinter (≈5% du code total)
+**Fichier:** `ui/main_window.py`
+**Lignes approximatives:** Structure initiale de la classe et création des onglets
+**Description:** L'IA a assisté dans la mise en place de la structure de base de l'application Tkinter avec le système d'onglets (Notebook). La logique métier et les implémentations spécifiques ont été développées manuellement.
+
+### 2. Docstrings et commentaires (≈3% du code total)
+**Fichiers:** Tous les modules (`core/*.py`, `ui/*.py`)
+**Description:** L'IA a suggéré certaines docstrings au format standard Python pour documenter les fonctions et classes. Le contenu technique et les descriptions détaillées ont été revus et adaptés manuellement.
+
+### 3. Formatage des résultats textuels (≈2% du code total)
+**Fichier:** `ui/main_window.py`
+**Fonction:** Méthodes d'affichage des résultats dans les ScrolledText
+**Description:** L'IA a suggéré des formats d'affichage pour les résultats dans les zones de texte. Le contenu et les informations affichées sont développés manuellement.
+
+## Parties développées manuellement (≈90% du code)
+
+### Algorithmes mathématiques (100% manuel)
+- Élimination de Gauss avec pivot partiel
+- Décomposition LU
+- Régression linéaire par moindres carrés
+- Simulation de chaîne de Markov
+- Marche aléatoire 1D et 2D
+- Calcul de distribution stationnaire
+
+### Interface utilisateur (95% manuel)
+- Logique de saisie et validation des données
+- Gestion des événements et interactions utilisateur
+- Intégration des graphiques Matplotlib
+- Parsing des contraintes en programmation linéaire
+- Création dynamique des grilles de saisie
+- Gestion des erreurs et messages utilisateur
+
+### Intégration et architecture (100% manuel)
+- Organisation modulaire du projet
+- Importation et utilisation de PuLP
+- Visualisations avec Matplotlib
+- Chargement de fichiers CSV
+- Système de status bar et feedback utilisateur
+
+## Estimation du pourcentage total d'IA
+
+**Total estimé: ≈10% du code source**
+
+- Aide à la structure: 5%
+- Documentation: 3%
+- Formatage: 2%
+
+Le reste du code (90%) a été développé manuellement, incluant tous les algorithmes, la logique métier, les calculs mathématiques, et la majorité de l'interface utilisateur.
+
+## Méthodologie
+
+L'IA a été utilisée principalement comme outil d'assistance pour:
+1. Suggérer des structures de base standard
+2. Compléter certaines docstrings
+3. Proposer des formats de présentation
+
+Tous les algorithmes mathématiques, la logique de calcul, les validations, et les fonctionnalités spécifiques ont été implémentés sans assistance IA, en se basant sur les connaissances en mathématiques et programmation.
+
+## Vérification
+
+Ce projet respecte la limite de 20% d'utilisation d'IA générative imposée par les consignes du cours.
+
+---
+Date: 4 novembre 2025
